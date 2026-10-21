@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acme Notes</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="/">
+      <svg width="28" height="28" viewBox="0 0 28 28" aria-hidden="true">
+        <rect width="28" height="28" rx="7" fill="var(--accent)"/>
+        <path d="M8 9h12M8 14h12M8 19h7" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      Acme Notes
+    </a>
+    <nav aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#signup">Docs</a>
+    </nav>
+    <a class="button button-small" href="#signup">Sign in</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">New: offline sync</p>
+      <h1>Notes that keep up with your team</h1>
+      <p class="lead">Write, link and share notes in one place. Every draft, decision and meeting stays in sync across your devices.</p>
+      <div class="actions">
+        <a class="button" href="#signup">Start for free</a>
+        <a class="button button-secondary" href="#features">See how it works</a>
+      </div>
+    </section>
+
+    <section id="features" class="features" aria-labelledby="features-title">
+      <h2 id="features-title">Everything in one place</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 20 20"><path d="M4 16l2.5-.6L15 6.9 13.1 5 4.6 13.5zM12 6.1l1.9 1.9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Fast editor</h3>
+          <p>Markdown shortcuts, slash commands and instant search.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 20 20"><circle cx="7" cy="7" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="14" cy="13" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9.2 9.2l2.6 1.6" stroke="currentColor" stroke-width="1.8"/></svg>
+          </span>
+          <h3>Linked notes</h3>
+          <p>Connect ideas with backlinks and see how they relate.</p>
+        </article>
+        <article class="card">
+          <span class="card-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 20 20"><path d="M3 10a7 7 0 0 1 12-4.9M17 10a7 7 0 0 1-12 4.9M15 2v3.5h-3.5M5 18v-3.5h3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Always in sync</h3>
+          <p>Work offline on any device. Changes merge when you reconnect.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing" aria-labelledby="pricing-title">
+      <h2 id="pricing-title">Simple pricing</h2>
+      <div class="grid">
+        <article class="plan">
+          <h3>Starter</h3>
+          <p class="price"><span>$0</span> / month</p>
+          <ul>
+            <li>3 notebooks</li>
+            <li>7-day history</li>
+            <li>Community support</li>
+          </ul>
+          <a class="button button-secondary" href="#signup">Choose Starter</a>
+        </article>
+        <article class="plan plan-featured">
+          <p class="badge">Most popular</p>
+          <h3>Team</h3>
+          <p class="price"><span>$8</span> / user / month</p>
+          <ul>
+            <li>Unlimited notebooks</li>
+            <li>90-day history</li>
+            <li>Shared spaces</li>
+          </ul>
+          <a class="button" href="#signup">Choose Team</a>
+        </article>
+        <article class="plan">
+          <h3>Business</h3>
+          <p class="price"><span>$16</span> / user / month</p>
+          <ul>
+            <li>Everything in Team</li>
+            <li>Single sign-on</li>
+            <li>Priority support</li>
+          </ul>
+          <a class="button button-secondary" href="#signup">Contact sales</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="signup" class="signup" aria-labelledby="signup-title">
+      <h2 id="signup-title">Start writing today</h2>
+      <p>Free for small teams. No credit card needed.</p>
+      <form class="signup-form" action="#">
+        <label class="visually-hidden" for="email">Work email</label>
+        <input id="email" type="email" placeholder="you@company.com">
+        <button class="button" type="submit">Create account</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Acme Notes</p>
+    <nav aria-label="Footer">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Status</a>
+    </nav>
+  </footer>
+</body>
+</html>
