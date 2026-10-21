@@ -184,7 +184,7 @@ section h2 {
 
 .plan-featured {
   border: 2px solid var(--accent);
-  box-shadow: 0 10px 30px rgb(79 70 229 / 0.15);
+  box-shadow: 0 16px 40px rgb(79 70 229 / 0.25);
 }
 
 .badge {
@@ -192,7 +192,7 @@ section h2 {
   margin: 0 0 12px;
   padding: 2px 10px;
   border-radius: 999px;
-  background: var(--accent);
+  background: #0f766e;
   color: #ffffff;
   font-size: 12px;
   font-weight: 600;
@@ -205,8 +205,8 @@ section h2 {
 
 .price span {
   color: var(--text);
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 42px;
+  font-weight: 800;
 }
 
 .plan ul {

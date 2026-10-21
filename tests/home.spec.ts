@@ -11,3 +11,7 @@ test('home page', async ({ page }) => {
 test('header', async ({ page }) => {
   await expect(page.getByRole('banner')).toHaveScreenshot('header.png');
 });
+
+test('footer', async ({ page }) => {
+  await expect(page.getByRole('contentinfo')).toHaveScreenshot('footer.png');
+});
